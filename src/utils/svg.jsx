@@ -2,35 +2,35 @@ function ButtonIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="31"
-      viewBox="0 0 30 31"
+      width="25"
+      height="25"
+      viewBox="0 0 25 25"
       fill="none"
     >
       <circle
-        cx="15.0048"
-        cy="15.682"
-        r="14.8368"
-        fill="url(#paint0_linear_1_21)"
+        cx="12.6884"
+        cy="12.3115"
+        r="12.3115"
+        fill="url(#paint0_radial_269_108)"
       />
       <path
-        d="M12.6113 9.46008L18.8332 15.4427L12.6113 21.4252"
+        d="M10.7025 7.14862L15.8654 12.1129L10.7025 17.0772"
         stroke="white"
-        strokeWidth="1.91443"
+        strokeWidth="1.58858"
         strokeLinecap="round"
       />
       <defs>
-        <linearGradient
-          id="paint0_linear_1_21"
-          x1="15.0327"
-          y1="9.70602"
-          x2="15.0327"
-          y2="25.161"
+        <radialGradient
+          id="paint0_radial_269_108"
+          cx="0"
+          cy="0"
+          r="1"
           gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(7.41209 4.22108) rotate(67.5206) scale(22.0796)"
         >
-          <stop offset="0.355" stopColor="#359EFF" />
-          <stop offset="1" stopColor="#1F79FF" />
-        </linearGradient>
+          <stop stopColor="#FF9C9A" />
+          <stop offset="1" stopColor="#FF0000" />
+        </radialGradient>
       </defs>
     </svg>
   );

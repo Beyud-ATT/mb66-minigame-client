@@ -405,8 +405,11 @@ const MiniGame2 = ({ isOpen, onClose, userData }) => {
               onClick={handleSubmit}
               className="h-[46px] px-4 text-white font-bold rounded-[25.585px] shadow-md transform transition-all duration-300 cursor-pointer"
               style={{
-                background: "linear-gradient(180deg, #02A8CC 0%, #1C81A0 100%)",
-                boxShadow: "0px -3px 0px 0px #62DDFF inset",
+                borderRadius: "15.749px",
+                border: "0.477px solid #FFF",
+                background:
+                  "linear-gradient(0deg, var(--primary-color) 0%, var(--primary-color-light) 100%)",
+                boxShadow: "0px 1.531px 1.531px 0px #08F",
               }}
               aria-label="Submit"
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}

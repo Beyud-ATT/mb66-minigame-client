@@ -5,6 +5,7 @@ import CompoundGameHistoryModal from "../components/CompoundGameHistoryModal";
 import { CompoundLoginModal } from "../components/CompoundLoginModal";
 import CompoundMiniGame1 from "../components/CompoundMiniGame1";
 import CompoundMiniGame2 from "../components/CompoundMiniGame2";
+import { ButtonIcon } from "../utils/svg";
 
 const Home = ({
   onShowRuleGame,
@@ -63,15 +64,16 @@ const Home = ({
           onClick={onShowRuleGame}
           className="w-[355px] h-[43px] scale-100 hover:scale-105 transform transition-all duration-300 cursor-pointer px-3.5"
           style={{
-            borderRadius: "21.495px",
-            border: "1.624px solid #FFE83E",
-            background:
-              "linear-gradient(180deg, #FFD5D5 0%, #FFB8B8 17.79%, #C53A3A 37.98%, #F00 88.46%, #FF7171 100%)",
-            boxShadow: "2.624px 3.498px 3.848px 0px rgba(0, 0, 0, 0.25) inset",
+            borderRadius: "39.578px",
+            border: "0.682px solid #FFB8B8",
+            background: "#F5F9FF",
+            boxShadow:
+              "1.365px 2.047px 2.798px 0px rgba(255, 47, 47, 0.20), 0px 2.148px 6.121px 5.906px rgba(133, 49, 49, 0.02), 0px 0px 4.618px 4.295px rgba(255, 164, 164, 0.25) inset",
           }}
         >
-          <span className="text-white font-bold uppercase text-center">
+          <span className="text-[#3A5177] font-bold uppercase flex items-center justify-between">
             Thể lệ trò chơi
+            <ButtonIcon />
           </span>
         </button>
 
