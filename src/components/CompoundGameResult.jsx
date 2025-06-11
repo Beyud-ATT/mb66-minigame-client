@@ -115,9 +115,14 @@ const CompoundGameResult = forwardRef(
                         background: "linear-gradient(0deg, #A00 0%, #F00 100%)",
                       }}
                     >
-                      <span className="text-white font-bold">
+                      <a
+                        href="https://mb66e.asia/trangchu/nhapcode"
+                        className="text-white font-bold"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {promoCode !== null ? "đi đến trang nhập code" : "đóng"}
-                      </span>
+                      </a>
                     </button>
                   </footer>
                 </div>
