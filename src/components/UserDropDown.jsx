@@ -3,8 +3,6 @@ import { useState } from "react";
 export default function UserDropDown({ userData }) {
   const [isOpen, setIsOpen] = useState(false);
 
-  console.log(userData);
-
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("username");
@@ -17,12 +15,12 @@ export default function UserDropDown({ userData }) {
     setIsOpen(!isOpen);
   };
 
-  if (userData === null) {
-    return null;
-  }
+  //   if (userData === null) {
+  //     return null;
+  //   }
 
   return (
-    <div className="relative inline-block text-left w-[150px] mt-2">
+    <div className="relative inline-block text-left w-[150px]">
       <button
         onClick={toggleDropdown}
         className="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium  rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--primary-color)] transition-colors duration-200"

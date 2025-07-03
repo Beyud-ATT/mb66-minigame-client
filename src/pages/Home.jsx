@@ -21,7 +21,7 @@ const Home = ({
       className="md:w-[500px] min-h-screen mx-auto flex flex-col relative"
       style={{ background: `url(${bg}) center/cover no-repeat` }}
     >
-      <div className="flex justify-end">
+      <div className="flex justify-end absolute top-5 right-1">
         <UserDropDown userData={userData} />
       </div>
       <div className="flex flex-col items-center pb-2">
