@@ -5,6 +5,7 @@ import CompoundGameHistoryModal from "../components/CompoundGameHistoryModal";
 import { CompoundLoginModal } from "../components/CompoundLoginModal";
 import CompoundMiniGame1 from "../components/CompoundMiniGame1";
 import CompoundMiniGame2 from "../components/CompoundMiniGame2";
+import UserDropDown from "../components/UserDropDown";
 import { ButtonIcon } from "../utils/svg";
 
 const Home = ({
@@ -20,6 +21,9 @@ const Home = ({
       className="md:w-[500px] min-h-screen mx-auto flex flex-col relative"
       style={{ background: `url(${bg}) center/cover no-repeat` }}
     >
+      <div className="flex justify-end">
+        <UserDropDown userData={userData} />
+      </div>
       <div className="flex flex-col items-center pb-2">
         <a
           className="mt-10 flex"
