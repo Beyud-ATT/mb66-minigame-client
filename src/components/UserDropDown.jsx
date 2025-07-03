@@ -15,9 +15,9 @@ export default function UserDropDown({ userData }) {
     setIsOpen(!isOpen);
   };
 
-  //   if (userData === null) {
-  //     return null;
-  //   }
+  if (userData === null) {
+    return null;
+  }
 
   return (
     <div className="relative inline-block text-left w-[150px]">
